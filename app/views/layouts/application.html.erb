@@ -11,7 +11,7 @@
 
   <body>
 
-    <%= render 'partials/navbar' %>
+
 
     <!-- toastr alerts -->
     <% unless flash.empty? %>
@@ -24,5 +24,7 @@
     <% end %>
 
     <%= yield %>
+
+    <%= render 'partials/footer' %>
   </body>
 </html>
