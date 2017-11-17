@@ -1,0 +1,68 @@
+<div class="container-fluid mt-4 nav-largest">
+  <div class="col">
+    <div class="row">
+      <div class="col-7 d-flex flex-column">
+        <!-- <div class="search-bar m-5">
+          <p class="pt-3 pl-3">Search</p>
+        </div> -->
+        <p class="font-satisfy tagline text-center mt-auto">Colourful art for colourful people</p>
+      </div>
+      <div class="col-4 text-center">
+        <%= image_tag 'underdog_logo.png', class: "logo-header" %>
+      </div>
+      <div class="col-1">
+        <div class="row mt-4">
+          <div class="col">
+            <%= image_tag 'facebook.png', class: "social-icon" %>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <%= image_tag 'instagram.png', class: "social-icon" %>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <%= image_tag 'youtube.png', class: "social-icon" %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- NAVBAR -->
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-dark text-center bg-blue mt-3 mb-5">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav width-full d-flex justify-content-around">
+              <li class="nav-item">
+                <%= link_to 'Prints', root_path, class: "nav-link text-white" %>
+              </li>
+              <li class="nav-item">
+                <%= link_to 'Shirts', root_path, class: "nav-link text-white" %>
+              </li>
+              <li class="nav-item">
+                <%= link_to 'Stickers', root_path, class: "nav-link text-white" %>
+              </li>
+              <li class="nav-item">
+                <%= link_to 'About', root_path, class: "nav-link" %>
+              </li>
+              <li class="nav-item">
+                <%= link_to 'Contact', root_path, class: "nav-link" %>
+              </li>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

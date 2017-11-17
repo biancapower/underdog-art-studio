@@ -3,3 +3,44 @@
 */
 
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy');
+
+// font-family: 'Satisfy', cursive;
+// font-family: 'Roboto', sans-serif;
+
+body {
+  background-color: #F1FAEE;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-blue {
+  background-color: #457B9D;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.font-satisfy {
+  font-family: 'Satisfy', cursive;
+}
+
+.tagline {
+  font-size: 3em;
+  color: #1D3557;
+}
+
+.logo-header {
+  max-width: 65%;
+}
+
+.search-bar {
+  width: 25%;
+  opacity: 0.4;
+  border: 1px solid #457B9D;
+  color: #457B9D;
+}
+
+.social-icon {
+  width: 70%;
+}

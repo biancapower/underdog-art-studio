@@ -11,7 +11,7 @@
 
   <body>
 
-
+    <%= render 'partials/header' %>
 
     <!-- toastr alerts -->
     <% unless flash.empty? %>
@@ -22,9 +22,11 @@
       <% end %>
       </script>
     <% end %>
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
 
-    <%= render 'partials/footer' %>
+    <%#= render 'partials/footer' %>
   </body>
 </html>
