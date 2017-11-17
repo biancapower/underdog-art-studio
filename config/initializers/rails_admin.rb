@@ -2,6 +2,7 @@ RailsAdmin.config do |config|
 
   ### Popular gems integration
 
+
   ## == Devise ==
   config.authenticate_with do
     warden.authenticate! scope: :user
@@ -12,6 +13,8 @@ RailsAdmin.config do |config|
   ## == Cancan ==
   config.authorize_with :cancan
 
+  config.parent_controller = 'ApplicationController'
+  
   ## == Pundit ==
   # config.authorize_with :pundit
 
