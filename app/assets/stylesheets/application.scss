@@ -31,11 +31,15 @@ body {
 }
 
 .tagline-small {
-  font-size: 1.7em;
+  font-size: 1.4em;
 }
 
 .logo-header {
   max-width: 65%;
+}
+
+.logo-header-sm {
+  max-width: 50%;
 }
 
 .search-bar {
@@ -50,9 +54,50 @@ body {
 }
 
 .social-icon-sm {
-  width: 70%;
+  width: 40%;
 }
 
 .pad-zero {
   padding: 0;
+}
+
+
+.header-minimum {
+  display: block;
+}
+
+.header-medium {
+  display: none;
+}
+
+.header-large {
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+  .header-minimum {
+    display: none;
+  }
+
+  .header-medium {
+    display: block;
+  }
+
+  .header-large {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .header-minimum {
+    display: none;
+  }
+
+  .header-medium {
+    display: none;
+  }
+
+  .header-large {
+    display: block;
+  }
 }
