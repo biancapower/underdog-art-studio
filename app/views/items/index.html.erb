@@ -1,7 +1,24 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
+  <p id="notice"><%= notice %></p>
+</div>
+
+<div class="row">
+  <% @items.each do |item| %>
+
+    <div class="col">
+      <div class="card m-5 border-dark">
+
+        <div class="card-body image-cropper text-center">
+          <%= link_to image_tag(item.image.url(:medium), class: "item-image"), item %>
+        </div>
+
+        <div class="card-footer bg-dark text-white text-center">
+          <%= item.description %>
+        </div>
+
+      </div>
+    </div>
 
 
-<% @items.each do |item| %>
-  <%= item.description %>
-  <br>
-<% end %>
+  <% end %>
+</div>
