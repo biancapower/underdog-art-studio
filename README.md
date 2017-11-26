@@ -1,25 +1,7 @@
-# README
+# Underdog Art Studio Online Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an online store built for Underdog Art Studio, who are currently running business solely from their [Facebook page](https://www.facebook.com/underdogartstudio/).
 
-Things you may want to cover:
+This website is currently a work in progress. The live (development) version can be viewed [here](https://young-depths-89952.herokuapp.com/).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# underdog-art-studio
+![website screenshot](website_screenshot.png)
