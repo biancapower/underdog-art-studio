@@ -15,19 +15,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav width-full d-flex justify-content-around">
               <li class="nav-item">
-                <%= link_to 'Prints', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Prints', '/prints', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Shirts', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Shirts', '/shirts', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Stickers', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Stickers', '/stickers', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'About', root_path, class: "nav-link" %>
+                <%= link_to 'About', '/about', class: "nav-link" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Contact', root_path, class: "nav-link" %>
+                <%= link_to 'Contact', '/contact', class: "nav-link" %>
               </li>
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -53,13 +53,13 @@
       <div class="col-12">
         <div class="row m-4 text-center">
           <div class="col">
-            <%= image_tag 'facebook.png', class: "social-icon-sm" %>
+            <%= link_to (image_tag 'facebook.png', class: "social-icon-sm"), 'https://www.facebook.com/underdogartstudio/', target: '_blank' %>
           </div>
           <div class="col">
-            <%= image_tag 'instagram.png', class: "social-icon-sm" %>
+            <%= link_to (image_tag 'instagram.png', class: "social-icon-sm"), 'https://www.instagram.com/underdog_art_studio/', target: '_blank' %>
           </div>
           <div class="col">
-            <%= image_tag 'youtube.png', class: "social-icon-sm" %>
+            <%= link_to (image_tag 'youtube.png', class: "social-icon-sm"), 'https://www.youtube.com/channel/UCTjz-c10dW5BgrGHF8j-5jQ', target: '_blank' %>
           </div>
         </div>
       </div>
@@ -87,19 +87,19 @@
           <div class="collapse navbar-collapse" id="navbarNavMed">
             <div class="navbar-nav width-full d-flex justify-content-around">
               <li class="nav-item">
-                <%= link_to 'Prints', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Prints', '/prints', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Shirts', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Shirts', '/shirts', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Stickers', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Stickers', '/stickers', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'About', root_path, class: "nav-link" %>
+                <%= link_to 'About', '/about', class: "nav-link" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Contact', root_path, class: "nav-link" %>
+                <%= link_to 'Contact', '/contact', class: "nav-link" %>
               </li>
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -122,15 +122,15 @@
 
       <div class="col-6 text-center d-flex flex-column">
         <div class="row m-4 justify-content-center mt-5">
-          <div class="col-3">
-            <%= image_tag 'facebook.png', class: "social-icon" %>
-          </div>
-          <div class="col-3">
-            <%= image_tag 'instagram.png', class: "social-icon" %>
-          </div>
-          <div class="col-3">
-            <%= image_tag 'youtube.png', class: "social-icon" %>
-          </div>
+        <div class="col-3">
+          <%= link_to (image_tag 'facebook.png', class: "social-icon-sm"), 'https://www.facebook.com/underdogartstudio/', target: '_blank' %>
+        </div>
+        <div class="col-3">
+          <%= link_to (image_tag 'instagram.png', class: "social-icon-sm"), 'https://www.instagram.com/underdog_art_studio/', target: '_blank' %>
+        </div>
+        <div class="col-3">
+          <%= link_to (image_tag 'youtube.png', class: "social-icon-sm"), 'https://www.youtube.com/channel/UCTjz-c10dW5BgrGHF8j-5jQ', target: '_blank' %>
+        </div>
         </div>
         <div class="row mt-auto pb-4 mb-4">
           <div class="col-12">
@@ -165,17 +165,17 @@
       <div class="col-1">
         <div class="row mt-4">
           <div class="col">
-            <%= image_tag 'facebook.png', class: "social-icon" %>
+            <%= link_to (image_tag 'facebook.png', class: "social-icon-sm"), 'https://www.facebook.com/underdogartstudio/', target: '_blank' %>            
           </div>
         </div>
         <div class="row mt-4">
           <div class="col">
-            <%= image_tag 'instagram.png', class: "social-icon" %>
+            <%= link_to (image_tag 'instagram.png', class: "social-icon-sm"), 'https://www.instagram.com/underdog_art_studio/', target: '_blank' %>            
           </div>
         </div>
         <div class="row mt-4">
           <div class="col">
-            <%= image_tag 'youtube.png', class: "social-icon" %>
+            <%= link_to (image_tag 'youtube.png', class: "social-icon-sm"), 'https://www.youtube.com/channel/UCTjz-c10dW5BgrGHF8j-5jQ', target: '_blank' %>
           </div>
         </div>
       </div>
@@ -193,19 +193,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav width-full d-flex justify-content-around">
               <li class="nav-item">
-                <%= link_to 'Prints', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Prints', '/prints', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Shirts', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Shirts', '/shirts', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Stickers', root_path, class: "nav-link text-white" %>
+                <%= link_to 'Stickers', 'stickers', class: "nav-link text-white" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'About', root_path, class: "nav-link" %>
+                <%= link_to 'About', '/about', class: "nav-link" %>
               </li>
               <li class="nav-item">
-                <%= link_to 'Contact', root_path, class: "nav-link" %>
+                <%= link_to 'Contact', '/contact', class: "nav-link" %>
               </li>
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
