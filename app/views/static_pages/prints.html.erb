@@ -2,25 +2,27 @@
   <p id="notice"><%= notice %></p>
 </div>
 
-<h3>Prints</h3>
+<div class="container-fluid pt-5 pb-5">
+  <h2 class="text-center pb-5">Prints</h2>
 
-<div class="row">
-  <% @items.each do |item| %>
+  <div class="row">
+    <% @items.each do |item| %>
 
-    <div class="col">
-      <div class="card m-5 border-dark">
+      <div class="col">
+        <div class="card item-card m-3">
 
-        <div class="card-body image-cropper text-center">
-          <%= link_to image_tag(item.image.url(:medium), class: "item-image"), item %>
+          <div class="card-body image-cropper item-body text-center">
+            <%= link_to image_tag(item.image.url(:medium), class: "item-image"), item %>
+          </div>
+
+          <div class="card-footer item-description text-center">
+            <%= item.description %>
+          </div>
+
         </div>
-
-        <div class="card-footer bg-dark text-white text-center">
-          <%= item.description %>
-        </div>
-
       </div>
-    </div>
 
 
-  <% end %>
+    <% end %>
+  </div>
 </div>

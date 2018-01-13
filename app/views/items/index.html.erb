@@ -6,13 +6,13 @@
   <% @items.each do |item| %>
 
     <div class="col">
-      <div class="card m-5 border-dark">
+      <div class="card item-card m-3">
 
-        <div class="card-body image-cropper text-center">
+        <div class="card-body image-cropper item-body text-center">
           <%= link_to image_tag(item.image.url(:medium), class: "item-image"), item %>
         </div>
 
-        <div class="card-footer bg-dark text-white text-center">
+        <div class="card-footer item-description text-center">
           <%= item.description %>
         </div>
 

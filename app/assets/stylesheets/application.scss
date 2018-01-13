@@ -88,6 +88,16 @@ body {
   font-size: 1.25em;
 }
 
+.item-description, .item-body, .item-card {
+  background-color: #F1FAEE;
+  border: none;
+}
+
+.item-description {
+  margin-top: -20px;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 640px) {
   .header-minimum {
     display: none;
