@@ -1,5 +1,7 @@
 class Item < ApplicationRecord
 
+  has_and_belongs_to_many :product_types
+
   has_attached_file :image,
                     styles: {
                               medium: "300x300>",
